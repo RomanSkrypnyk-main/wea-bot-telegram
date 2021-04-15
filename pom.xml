@@ -16,8 +16,8 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>src.main.java.com.company.Main</mainClass>
-                            <name>Main</name>
+                            <mainClass>com.company.Main</mainClass>
+                            <name>wea-bot</name>
                         </program>
                     </programs>
                 </configuration>
