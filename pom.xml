@@ -16,8 +16,8 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>com.company.Main.wea_bot</mainClass>
-                            <name>wea-bot</name>
+                            <mainClass>com.company.Main</mainClass>
+                            <name>Main</name>
                         </program>
                     </programs>
                 </configuration>
