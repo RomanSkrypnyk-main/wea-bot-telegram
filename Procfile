@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp build/staging:build/staging/com.company.Main
+worker: java -jar target/java-telegram-bot-heroku-starter.jar com.company.Main
