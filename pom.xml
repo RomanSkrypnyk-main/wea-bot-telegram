@@ -16,7 +16,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>com.company.Main</mainClass>
+                            <mainClass>src.main.java.com.company.Main</mainClass>
                             <name>Main</name>
                         </program>
                     </programs>
