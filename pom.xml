@@ -17,7 +17,7 @@
                     <programs>
                         <program>
                             <mainClass>com.company.Main</mainClass>
-                            <name>wea-bot</name>
+                            <name>target.wea-bot-1.0-SNAPSHOT.jar</name>
                         </program>
                     </programs>
                 </configuration>
