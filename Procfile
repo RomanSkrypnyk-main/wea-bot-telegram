@@ -1,1 +1,1 @@
-java $JAVA_OPTS -cp target/classes:target/dependency/com.company.Main
+bot: java -jar build/libs/wea-bot-telegram-1.0-all.jar
