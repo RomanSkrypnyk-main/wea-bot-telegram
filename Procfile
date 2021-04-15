@@ -1,1 +1,1 @@
-worker: sh target/bin/com.company.Main
+java $JAVA_OPTS -cp target/classes:target/dependency/com.company.Main
