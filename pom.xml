@@ -30,6 +30,30 @@
                 <artifactId>heroku-maven-plugin</artifactId>
                 <version>3.0.3</version>
             </plugin>
+                 
+                 <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>appassembler-maven-plugin</artifactId>
+                <version>1.1.1</version>
+                <configuration>
+                    <assembleDirectory>target</assembleDirectory>
+                    <programs>
+                        <program>
+                            <mainClass>com.company.Main</mainClass>
+                            <name>wea_bot</name>
+                        </program>
+                    </programs>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>assemble</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+                 
         </plugins>
     </build>
          
