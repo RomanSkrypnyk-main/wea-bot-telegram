@@ -1,0 +1,353 @@
+2021-04-29T18:21:35.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/f09e1b63-92da-482f-a8f5-74287083311d/activity/builds/e98bb8bc-4d3b-4fb6-9272-364eefcb61ec
+2021-04-29T18:23:12.817805+00:00 heroku[worker.1]: State changed from crashed to starting
+2021-04-29T18:23:16.633313+00:00 heroku[worker.1]: Starting process with command `java -jar target/*.jar`
+2021-04-29T18:23:17.218196+00:00 heroku[worker.1]: State changed from starting to up
+2021-04-29T18:23:18.552537+00:00 app[worker.1]: Picked up JAVA_TOOL_OPTIONS: -XX:+UseContainerSupport -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 
+2021-04-29T18:23:18.702943+00:00 app[worker.1]: no main manifest attribute, in target/wea-bot-telegram-1.0-SNAPSHOT.jar
+2021-04-29T18:23:18.759483+00:00 heroku[worker.1]: Process exited with status 1
+2021-04-29T18:23:18.895355+00:00 heroku[worker.1]: State changed from up to crashed
+2021-04-29T18:23:38.000000+00:00 app[api]: Build started by user skrypnyk.rma@gmail.com
+2021-04-29T18:23:51.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/f09e1b63-92da-482f-a8f5-74287083311d/activity/builds/892eb1bc-877f-4ff3-ab37-f70954486f21
+2021-04-29T18:39:33.000000+00:00 app[api]: Build started by user skrypnyk.rma@gmail.com
+2021-04-29T18:39:47.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/f09e1b63-92da-482f-a8f5-74287083311d/activity/builds/e43af08d-8bfb-46b1-8ade-cc39af3c6b09
+2021-04-29T18:41:33.000000+00:00 app[api]: Build started by user skrypnyk.rma@gmail.com
+2021-04-29T18:41:58.273028+00:00 heroku[worker.1]: State changed from crashed to starting
+2021-04-29T18:41:56.491230+00:00 app[api]: Release v39 created by user skrypnyk.rma@gmail.com
+2021-04-29T18:41:56.491230+00:00 app[api]: Deploy 60d99749 by user skrypnyk.rma@gmail.com
+2021-04-29T18:41:58.000000+00:00 app[api]: Build succeeded
+2021-04-29T18:42:03.312747+00:00 heroku[worker.1]: Starting process with command `java com.company.Main`
+2021-04-29T18:42:04.120066+00:00 heroku[worker.1]: State changed from starting to up
+2021-04-29T18:42:15.439421+00:00 app[worker.1]: Error waiting for network: Resource temporarily unavailable
+2021-04-29T18:43:18.000000+00:00 app[api]: Build started by user skrypnyk.rma@gmail.com
+2021-04-29T18:43:40.438767+00:00 app[api]: Release v40 created by user skrypnyk.rma@gmail.com
+2021-04-29T18:43:42.017555+00:00 heroku[worker.1]: Restarting
+2021-04-29T18:43:42.020820+00:00 heroku[worker.1]: State changed from up to starting
+2021-04-29T18:43:40.438767+00:00 app[api]: Deploy 11dce553 by user skrypnyk.rma@gmail.com
+2021-04-29T18:43:42.000000+00:00 app[api]: Build succeeded
+2021-04-29T18:43:46.312386+00:00 heroku[worker.1]: Starting process with command `java com.company.Main`
+2021-04-29T18:43:47.169947+00:00 heroku[worker.1]: State changed from starting to up
+2021-04-29T18:43:49.719310+00:00 app[worker.1]: Picked up JAVA_TOOL_OPTIONS: -XX:+UseContainerSupport -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 
+2021-04-29T18:43:50.113282+00:00 app[worker.1]: Error: Could not find or load main class com.company.Main
+2021-04-29T18:43:50.113477+00:00 app[worker.1]: Caused by: java.lang.ClassNotFoundException: com.company.Main
+2021-04-29T18:43:50.205441+00:00 heroku[worker.1]: Process exited with status 1
+2021-04-29T18:43:50.288059+00:00 heroku[worker.1]: State changed from up to crashed
+2021-04-29T18:43:50.349732+00:00 heroku[worker.1]: State changed from crashed to starting
+2021-04-29T18:43:54.631046+00:00 heroku[worker.1]: Starting process with command `java com.company.Main`
+2021-04-29T18:43:55.269604+00:00 heroku[worker.1]: State changed from starting to up
+2021-04-29T18:43:57.902008+00:00 heroku[worker.1]: Process exited with status 1
+2021-04-29T18:43:57.967430+00:00 heroku[worker.1]: State changed from up to crashed
+2021-04-29T18:43:57.652182+00:00 app[worker.1]: Picked up JAVA_TOOL_OPTIONS: -XX:+UseContainerSupport -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 
+2021-04-29T18:43:57.839655+00:00 app[worker.1]: Error: Could not find or load main class com.company.Main
+2021-04-29T18:43:57.839771+00:00 app[worker.1]: Caused by: java.lang.ClassNotFoundException: com.company.Main
+2021-04-29T18:45:25.000000+00:00 app[api]: Build started by user skrypnyk.rma@gmail.com
+2021-04-29T18:45:47.701579+00:00 heroku[worker.1]: State changed from crashed to starting
+2021-04-29T18:45:46.542712+00:00 app[api]: Release v41 created by user skrypnyk.rma@gmail.com
+2021-04-29T18:45:46.542712+00:00 app[api]: Deploy ba319b9c by user skrypnyk.rma@gmail.com
+2021-04-29T18:45:48.000000+00:00 app[api]: Build succeeded
+2021-04-29T18:45:51.755023+00:00 heroku[worker.1]: Starting process with command `java com.company.Main`
+2021-04-29T18:45:52.406476+00:00 heroku[worker.1]: State changed from starting to up
+2021-04-29T18:45:55.016171+00:00 heroku[worker.1]: Process exited with status 1
+2021-04-29T18:45:55.083138+00:00 heroku[worker.1]: State changed from up to crashed
+2021-04-29T18:45:54.770525+00:00 app[worker.1]: Picked up JAVA_TOOL_OPTIONS: -XX:+UseContainerSupport -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 
+2021-04-29T18:45:54.951618+00:00 app[worker.1]: Error: Could not find or load main class com.company.Main
+2021-04-29T18:45:54.951625+00:00 app[worker.1]: Caused by: java.lang.ClassNotFoundException: com.company.Main
+2021-04-29T18:52:28.000000+00:00 app[api]: Build started by user skrypnyk.rma@gmail.com
+2021-04-29T18:52:51.469523+00:00 heroku[worker.1]: State changed from crashed to starting
+2021-04-29T18:52:50.341147+00:00 app[api]: Release v42 created by user skrypnyk.rma@gmail.com
+2021-04-29T18:52:50.341147+00:00 app[api]: Deploy dc1af38a by user skrypnyk.rma@gmail.com
+2021-04-29T18:52:52.000000+00:00 app[api]: Build succeeded
+2021-04-29T18:52:54.814842+00:00 heroku[worker.1]: Starting process with command `java com.company.Main`
+2021-04-29T18:52:55.592497+00:00 heroku[worker.1]: State changed from starting to up
+2021-04-29T18:52:57.321958+00:00 app[worker.1]: Picked up JAVA_TOOL_OPTIONS: -XX:+UseContainerSupport -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 
+2021-04-29T18:52:57.483019+00:00 app[worker.1]: Error: Could not find or load main class com.company.Main
+2021-04-29T18:52:57.483026+00:00 app[worker.1]: Caused by: java.lang.ClassNotFoundException: com.company.Main
+2021-04-29T18:52:57.544159+00:00 heroku[worker.1]: Process exited with status 1
+2021-04-29T18:52:57.796972+00:00 heroku[worker.1]: State changed from up to crashed
+2021-04-29T18:53:27.000000+00:00 app[api]: Build started by user skrypnyk.rma@gmail.com
+2021-04-29T18:53:55.550514+00:00 app[api]: Release v43 created by user skrypnyk.rma@gmail.com
+2021-04-29T18:53:55.550514+00:00 app[api]: Deploy 0d1722d3 by user skrypnyk.rma@gmail.com
+2021-04-29T18:53:57.480236+00:00 heroku[worker.1]: State changed from crashed to starting
+2021-04-29T18:53:57.000000+00:00 app[api]: Build succeeded
+2021-04-29T18:54:01.843039+00:00 heroku[worker.1]: Starting process with command `java com.company.Main`
+2021-04-29T18:54:02.519638+00:00 heroku[worker.1]: State changed from starting to up
+2021-04-29T18:54:04.725895+00:00 app[worker.1]: Picked up JAVA_TOOL_OPTIONS: -XX:+UseContainerSupport -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 
+2021-04-29T18:54:04.927744+00:00 app[worker.1]: Error: Could not find or load main class com.company.Main
+2021-04-29T18:54:04.927887+00:00 app[worker.1]: Caused by: java.lang.ClassNotFoundException: com.company.Main
+2021-04-29T18:54:04.980355+00:00 heroku[worker.1]: Process exited with status 1
+2021-04-29T18:54:05.194970+00:00 heroku[worker.1]: State changed from up to crashed
+2021-04-29T18:54:30.000000+00:00 app[api]: Build started by user skrypnyk.rma@gmail.com
+2021-04-29T18:54:54.235342+00:00 app[api]: Deploy c5900205 by user skrypnyk.rma@gmail.com
+2021-04-29T18:54:54.235342+00:00 app[api]: Release v44 created by user skrypnyk.rma@gmail.com
+2021-04-29T18:54:57.953264+00:00 heroku[worker.1]: State changed from crashed to starting
+2021-04-29T18:54:56.000000+00:00 app[api]: Build succeeded
+2021-04-29T18:55:02.401815+00:00 heroku[worker.1]: Starting process with command `java com.company.Main`
+2021-04-29T18:55:03.081009+00:00 heroku[worker.1]: State changed from starting to up
+2021-04-29T18:55:05.258009+00:00 heroku[worker.1]: Process exited with status 1
+2021-04-29T18:55:05.316181+00:00 heroku[worker.1]: State changed from up to crashed
+2021-04-29T18:55:05.022554+00:00 app[worker.1]: Picked up JAVA_TOOL_OPTIONS: -XX:+UseContainerSupport -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 
+2021-04-29T18:55:05.199091+00:00 app[worker.1]: Error: Could not find or load main class com.company.Main
+2021-04-29T18:55:05.199097+00:00 app[worker.1]: Caused by: java.lang.ClassNotFoundException: com.company.Main
+2021-04-29T18:56:20.000000+00:00 app[api]: Build started by user skrypnyk.rma@gmail.com
+2021-04-29T18:56:44.725819+00:00 heroku[worker.1]: State changed from crashed to down
+2021-04-29T18:56:44.449286+00:00 app[api]: Release v45 created by user skrypnyk.rma@gmail.com
+2021-04-29T18:56:44.449286+00:00 app[api]: Deploy a32fd623 by user skrypnyk.rma@gmail.com
+2021-04-29T18:56:47.000000+00:00 app[api]: Build succeeded
+2021-04-29T18:58:19.000000+00:00 app[api]: Build started by user skrypnyk.rma@gmail.com
+2021-04-29T18:59:04.116813+00:00 app[api]: Deploy fc36070d by user skrypnyk.rma@gmail.com
+2021-04-29T18:59:04.116813+00:00 app[api]: Release v46 created by user skrypnyk.rma@gmail.com
+2021-04-29T18:59:06.000000+00:00 app[api]: Build succeeded
+2021-04-29T19:00:00.000000+00:00 app[api]: Build started by user skrypnyk.rma@gmail.com
+2021-04-29T19:00:45.206679+00:00 app[api]: Release v47 created by user skrypnyk.rma@gmail.com
+2021-04-29T19:00:45.206679+00:00 app[api]: Deploy 5a684b6f by user skrypnyk.rma@gmail.com
+2021-04-29T19:00:47.000000+00:00 app[api]: Build succeeded
+2021-04-29T19:02:25.172206+00:00 app[api]: Scaled to worker@1:Free by user skrypnyk.rma@gmail.com
+2021-04-29T19:02:32.276083+00:00 heroku[worker.1]: Starting process with command `java -cp target/classes/;target/dependency/* com.company.Main`
+2021-04-29T19:02:32.981181+00:00 heroku[worker.1]: State changed from starting to up
+2021-04-29T19:02:34.634342+00:00 heroku[worker.1]: Process exited with status 127
+2021-04-29T19:02:34.728140+00:00 heroku[worker.1]: State changed from up to crashed
+2021-04-29T19:02:34.751392+00:00 heroku[worker.1]: State changed from crashed to starting
+2021-04-29T19:02:34.373608+00:00 app[worker.1]: Picked up JAVA_TOOL_OPTIONS: -XX:+UseContainerSupport -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 
+2021-04-29T19:02:34.571642+00:00 app[worker.1]: Usage: java [options] <mainclass> [args...]
+2021-04-29T19:02:34.571644+00:00 app[worker.1]:            (to execute a class)
+2021-04-29T19:02:34.571644+00:00 app[worker.1]:    or  java [options] -jar <jarfile> [args...]
+2021-04-29T19:02:34.571644+00:00 app[worker.1]:            (to execute a jar file)
+2021-04-29T19:02:34.571645+00:00 app[worker.1]:    or  java [options] -m <module>[/<mainclass>] [args...]
+2021-04-29T19:02:34.571645+00:00 app[worker.1]:        java [options] --module <module>[/<mainclass>] [args...]
+2021-04-29T19:02:34.571646+00:00 app[worker.1]:            (to execute the main class in a module)
+2021-04-29T19:02:34.571646+00:00 app[worker.1]:    or  java [options] <sourcefile> [args]
+2021-04-29T19:02:34.571646+00:00 app[worker.1]:            (to execute a single source-file program)
+2021-04-29T19:02:34.571647+00:00 app[worker.1]: 
+2021-04-29T19:02:34.571647+00:00 app[worker.1]:  Arguments following the main class, source file, -jar <jarfile>,
+2021-04-29T19:02:34.571648+00:00 app[worker.1]:  -m or --module <module>/<mainclass> are passed as the arguments to
+2021-04-29T19:02:34.571648+00:00 app[worker.1]:  main class.
+2021-04-29T19:02:34.571649+00:00 app[worker.1]: 
+2021-04-29T19:02:34.571649+00:00 app[worker.1]:  where options include:
+2021-04-29T19:02:34.571649+00:00 app[worker.1]: 
+2021-04-29T19:02:34.571650+00:00 app[worker.1]:     -cp <class search path of directories and zip/jar files>
+2021-04-29T19:02:34.571650+00:00 app[worker.1]:     -classpath <class search path of directories and zip/jar files>
+2021-04-29T19:02:34.571650+00:00 app[worker.1]:     --class-path <class search path of directories and zip/jar files>
+2021-04-29T19:02:34.571651+00:00 app[worker.1]:                   A : separated list of directories, JAR archives,
+2021-04-29T19:02:34.571651+00:00 app[worker.1]:                   and ZIP archives to search for class files.
+2021-04-29T19:02:34.571652+00:00 app[worker.1]:     -p <module path>
+2021-04-29T19:02:34.571652+00:00 app[worker.1]:     --module-path <module path>...
+2021-04-29T19:02:34.571652+00:00 app[worker.1]:                   A : separated list of directories, each directory
+2021-04-29T19:02:34.571653+00:00 app[worker.1]:                   is a directory of modules.
+2021-04-29T19:02:34.571653+00:00 app[worker.1]:     --upgrade-module-path <module path>...
+2021-04-29T19:02:34.571653+00:00 app[worker.1]:                   A : separated list of directories, each directory
+2021-04-29T19:02:34.571654+00:00 app[worker.1]:                   is a directory of modules that replace upgradeable
+2021-04-29T19:02:34.571654+00:00 app[worker.1]:                   modules in the runtime image
+2021-04-29T19:02:34.571655+00:00 app[worker.1]:     --add-modules <module name>[,<module name>...]
+2021-04-29T19:02:34.571655+00:00 app[worker.1]:                   root modules to resolve in addition to the initial module.
+2021-04-29T19:02:34.571655+00:00 app[worker.1]:                   <module name> can also be ALL-DEFAULT, ALL-SYSTEM,
+2021-04-29T19:02:34.571656+00:00 app[worker.1]:                   ALL-MODULE-PATH.
+2021-04-29T19:02:34.571656+00:00 app[worker.1]:     --list-modules
+2021-04-29T19:02:34.571656+00:00 app[worker.1]:                   list observable modules and exit
+2021-04-29T19:02:34.571657+00:00 app[worker.1]:     -d <module name>
+2021-04-29T19:02:34.571657+00:00 app[worker.1]:     --describe-module <module name>
+2021-04-29T19:02:34.571657+00:00 app[worker.1]:                   describe a module and exit
+2021-04-29T19:02:34.571658+00:00 app[worker.1]:     --dry-run     create VM and load main class but do not execute main method.
+2021-04-29T19:02:34.571658+00:00 app[worker.1]:                   The --dry-run option may be useful for validating the
+2021-04-29T19:02:34.571659+00:00 app[worker.1]:                   command-line options such as the module system configuration.
+2021-04-29T19:02:34.571659+00:00 app[worker.1]:     --validate-modules
+2021-04-29T19:02:34.571660+00:00 app[worker.1]:                   validate all modules and exit
+2021-04-29T19:02:34.571660+00:00 app[worker.1]:                   The --validate-modules option may be useful for finding
+2021-04-29T19:02:34.571660+00:00 app[worker.1]:                   conflicts and other errors with modules on the module path.
+2021-04-29T19:02:34.571661+00:00 app[worker.1]:     -D<name>=<value>
+2021-04-29T19:02:34.571661+00:00 app[worker.1]:                   set a system property
+2021-04-29T19:02:34.571662+00:00 app[worker.1]:     -verbose:[class|module|gc|jni]
+2021-04-29T19:02:34.571662+00:00 app[worker.1]:                   enable verbose output
+2021-04-29T19:02:34.571662+00:00 app[worker.1]:     -version      print product version to the error stream and exit
+2021-04-29T19:02:34.571663+00:00 app[worker.1]:     --version     print product version to the output stream and exit
+2021-04-29T19:02:34.571663+00:00 app[worker.1]:     -showversion  print product version to the error stream and continue
+2021-04-29T19:02:34.571663+00:00 app[worker.1]:     --show-version
+2021-04-29T19:02:34.571664+00:00 app[worker.1]:                   print product version to the output stream and continue
+2021-04-29T19:02:34.571664+00:00 app[worker.1]:     --show-module-resolution
+2021-04-29T19:02:34.571665+00:00 app[worker.1]:                   show module resolution output during startup
+2021-04-29T19:02:34.571665+00:00 app[worker.1]:     -? -h -help
+2021-04-29T19:02:34.571665+00:00 app[worker.1]:                   print this help message to the error stream
+2021-04-29T19:02:34.571666+00:00 app[worker.1]:     --help        print this help message to the output stream
+2021-04-29T19:02:34.571666+00:00 app[worker.1]:     -X            print help on extra options to the error stream
+2021-04-29T19:02:34.571667+00:00 app[worker.1]:     --help-extra  print help on extra options to the output stream
+2021-04-29T19:02:34.571667+00:00 app[worker.1]:     -ea[:<packagename>...|:<classname>]
+2021-04-29T19:02:34.571667+00:00 app[worker.1]:     -enableassertions[:<packagename>...|:<classname>]
+2021-04-29T19:02:34.571668+00:00 app[worker.1]:                   enable assertions with specified granularity
+2021-04-29T19:02:34.571668+00:00 app[worker.1]:     -da[:<packagename>...|:<classname>]
+2021-04-29T19:02:34.571669+00:00 app[worker.1]:     -disableassertions[:<packagename>...|:<classname>]
+2021-04-29T19:02:34.571669+00:00 app[worker.1]:                   disable assertions with specified granularity
+2021-04-29T19:02:34.571669+00:00 app[worker.1]:     -esa | -enablesystemassertions
+2021-04-29T19:02:34.571670+00:00 app[worker.1]:                   enable system assertions
+2021-04-29T19:02:34.571670+00:00 app[worker.1]:     -dsa | -disablesystemassertions
+2021-04-29T19:02:34.571671+00:00 app[worker.1]:                   disable system assertions
+2021-04-29T19:02:34.571671+00:00 app[worker.1]:     -agentlib:<libname>[=<options>]
+2021-04-29T19:02:34.571671+00:00 app[worker.1]:                   load native agent library <libname>, e.g. -agentlib:jdwp
+2021-04-29T19:02:34.571672+00:00 app[worker.1]:                   see also -agentlib:jdwp=help
+2021-04-29T19:02:34.571672+00:00 app[worker.1]:     -agentpath:<pathname>[=<options>]
+2021-04-29T19:02:34.571672+00:00 app[worker.1]:                   load native agent library by full pathname
+2021-04-29T19:02:34.571673+00:00 app[worker.1]:     -javaagent:<jarpath>[=<options>]
+2021-04-29T19:02:34.571673+00:00 app[worker.1]:                   load Java programming language agent, see java.lang.instrument
+2021-04-29T19:02:34.571674+00:00 app[worker.1]:     -splash:<imagepath>
+2021-04-29T19:02:34.571674+00:00 app[worker.1]:                   show splash screen with specified image
+2021-04-29T19:02:34.571675+00:00 app[worker.1]:                   HiDPI scaled images are automatically supported and used
+2021-04-29T19:02:34.571675+00:00 app[worker.1]:                   if available. The unscaled image filename, e.g. image.ext,
+2021-04-29T19:02:34.571682+00:00 app[worker.1]:                   should always be passed as the argument to the -splash option.
+2021-04-29T19:02:34.571682+00:00 app[worker.1]:                   The most appropriate scaled image provided will be picked up
+2021-04-29T19:02:34.571683+00:00 app[worker.1]:                   automatically.
+2021-04-29T19:02:34.571689+00:00 app[worker.1]:                   See the SplashScreen API documentation for more information
+2021-04-29T19:02:34.571689+00:00 app[worker.1]:     @argument files
+2021-04-29T19:02:34.571689+00:00 app[worker.1]:                   one or more argument files containing options
+2021-04-29T19:02:34.571690+00:00 app[worker.1]:     -disable-@files
+2021-04-29T19:02:34.571690+00:00 app[worker.1]:                   prevent further argument file expansion
+2021-04-29T19:02:34.571690+00:00 app[worker.1]:     --enable-preview
+2021-04-29T19:02:34.571691+00:00 app[worker.1]:                   allow classes to depend on preview features of this release
+2021-04-29T19:02:34.571691+00:00 app[worker.1]: To specify an argument for a long option, you can use --<name>=<value> or
+2021-04-29T19:02:34.571691+00:00 app[worker.1]: --<name> <value>.
+2021-04-29T19:02:34.571694+00:00 app[worker.1]: 
+2021-04-29T19:02:34.581117+00:00 app[worker.1]: bash: target/dependency/*: No such file or directory
+2021-04-29T19:02:39.163461+00:00 heroku[worker.1]: Starting process with command `java -cp target/classes/;target/dependency/* com.company.Main`
+2021-04-29T19:02:39.785786+00:00 heroku[worker.1]: State changed from starting to up
+2021-04-29T19:02:41.642642+00:00 heroku[worker.1]: Process exited with status 127
+2021-04-29T19:02:41.725777+00:00 heroku[worker.1]: State changed from up to crashed
+2021-04-29T19:02:41.399512+00:00 app[worker.1]: Picked up JAVA_TOOL_OPTIONS: -XX:+UseContainerSupport -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 
+2021-04-29T19:02:41.584351+00:00 app[worker.1]: Usage: java [options] <mainclass> [args...]
+2021-04-29T19:02:41.584353+00:00 app[worker.1]:            (to execute a class)
+2021-04-29T19:02:41.584353+00:00 app[worker.1]:    or  java [options] -jar <jarfile> [args...]
+2021-04-29T19:02:41.584353+00:00 app[worker.1]:            (to execute a jar file)
+2021-04-29T19:02:41.584354+00:00 app[worker.1]:    or  java [options] -m <module>[/<mainclass>] [args...]
+2021-04-29T19:02:41.584354+00:00 app[worker.1]:        java [options] --module <module>[/<mainclass>] [args...]
+2021-04-29T19:02:41.584355+00:00 app[worker.1]:            (to execute the main class in a module)
+2021-04-29T19:02:41.584355+00:00 app[worker.1]:    or  java [options] <sourcefile> [args]
+2021-04-29T19:02:41.584355+00:00 app[worker.1]:            (to execute a single source-file program)
+2021-04-29T19:02:41.584356+00:00 app[worker.1]: 
+2021-04-29T19:02:41.584357+00:00 app[worker.1]:  Arguments following the main class, source file, -jar <jarfile>,
+2021-04-29T19:02:41.584357+00:00 app[worker.1]:  -m or --module <module>/<mainclass> are passed as the arguments to
+2021-04-29T19:02:41.584358+00:00 app[worker.1]:  main class.
+2021-04-29T19:02:41.584358+00:00 app[worker.1]: 
+2021-04-29T19:02:41.584358+00:00 app[worker.1]:  where options include:
+2021-04-29T19:02:41.584358+00:00 app[worker.1]: 
+2021-04-29T19:02:41.584359+00:00 app[worker.1]:     -cp <class search path of directories and zip/jar files>
+2021-04-29T19:02:41.584359+00:00 app[worker.1]:     -classpath <class search path of directories and zip/jar files>
+2021-04-29T19:02:41.584360+00:00 app[worker.1]:     --class-path <class search path of directories and zip/jar files>
+2021-04-29T19:02:41.584360+00:00 app[worker.1]:                   A : separated list of directories, JAR archives,
+2021-04-29T19:02:41.584360+00:00 app[worker.1]:                   and ZIP archives to search for class files.
+2021-04-29T19:02:41.584361+00:00 app[worker.1]:     -p <module path>
+2021-04-29T19:02:41.584361+00:00 app[worker.1]:     --module-path <module path>...
+2021-04-29T19:02:41.584362+00:00 app[worker.1]:                   A : separated list of directories, each directory
+2021-04-29T19:02:41.584362+00:00 app[worker.1]:                   is a directory of modules.
+2021-04-29T19:02:41.584363+00:00 app[worker.1]:     --upgrade-module-path <module path>...
+2021-04-29T19:02:41.584363+00:00 app[worker.1]:                   A : separated list of directories, each directory
+2021-04-29T19:02:41.584364+00:00 app[worker.1]:                   is a directory of modules that replace upgradeable
+2021-04-29T19:02:41.584364+00:00 app[worker.1]:                   modules in the runtime image
+2021-04-29T19:02:41.584368+00:00 app[worker.1]:     --add-modules <module name>[,<module name>...]
+2021-04-29T19:02:41.584368+00:00 app[worker.1]:                   root modules to resolve in addition to the initial module.
+2021-04-29T19:02:41.584369+00:00 app[worker.1]:                   <module name> can also be ALL-DEFAULT, ALL-SYSTEM,
+2021-04-29T19:02:41.584369+00:00 app[worker.1]:                   ALL-MODULE-PATH.
+2021-04-29T19:02:41.584369+00:00 app[worker.1]:     --list-modules
+2021-04-29T19:02:41.584370+00:00 app[worker.1]:                   list observable modules and exit
+2021-04-29T19:02:41.584370+00:00 app[worker.1]:     -d <module name>
+2021-04-29T19:02:41.584370+00:00 app[worker.1]:     --describe-module <module name>
+2021-04-29T19:02:41.584371+00:00 app[worker.1]:                   describe a module and exit
+2021-04-29T19:02:41.584371+00:00 app[worker.1]:     --dry-run     create VM and load main class but do not execute main method.
+2021-04-29T19:02:41.584372+00:00 app[worker.1]:                   The --dry-run option may be useful for validating the
+2021-04-29T19:02:41.584372+00:00 app[worker.1]:                   command-line options such as the module system configuration.
+2021-04-29T19:02:41.584373+00:00 app[worker.1]:     --validate-modules
+2021-04-29T19:02:41.584373+00:00 app[worker.1]:                   validate all modules and exit
+2021-04-29T19:02:41.584373+00:00 app[worker.1]:                   The --validate-modules option may be useful for finding
+2021-04-29T19:02:41.584374+00:00 app[worker.1]:                   conflicts and other errors with modules on the module path.
+2021-04-29T19:02:41.584374+00:00 app[worker.1]:     -D<name>=<value>
+2021-04-29T19:02:41.584374+00:00 app[worker.1]:                   set a system property
+2021-04-29T19:02:41.584375+00:00 app[worker.1]:     -verbose:[class|module|gc|jni]
+2021-04-29T19:02:41.584375+00:00 app[worker.1]:                   enable verbose output
+2021-04-29T19:02:41.584375+00:00 app[worker.1]:     -version      print product version to the error stream and exit
+2021-04-29T19:02:41.584376+00:00 app[worker.1]:     --version     print product version to the output stream and exit
+2021-04-29T19:02:41.584376+00:00 app[worker.1]:     -showversion  print product version to the error stream and continue
+2021-04-29T19:02:41.584377+00:00 app[worker.1]:     --show-version
+2021-04-29T19:02:41.584377+00:00 app[worker.1]:                   print product version to the output stream and continue
+2021-04-29T19:02:41.584377+00:00 app[worker.1]:     --show-module-resolution
+2021-04-29T19:02:41.584378+00:00 app[worker.1]:                   show module resolution output during startup
+2021-04-29T19:02:41.584378+00:00 app[worker.1]:     -? -h -help
+2021-04-29T19:02:41.584379+00:00 app[worker.1]:                   print this help message to the error stream
+2021-04-29T19:02:41.584379+00:00 app[worker.1]:     --help        print this help message to the output stream
+2021-04-29T19:02:41.584379+00:00 app[worker.1]:     -X            print help on extra options to the error stream
+2021-04-29T19:02:41.584380+00:00 app[worker.1]:     --help-extra  print help on extra options to the output stream
+2021-04-29T19:02:41.584380+00:00 app[worker.1]:     -ea[:<packagename>...|:<classname>]
+2021-04-29T19:02:41.584381+00:00 app[worker.1]:     -enableassertions[:<packagename>...|:<classname>]
+2021-04-29T19:02:41.584381+00:00 app[worker.1]:                   enable assertions with specified granularity
+2021-04-29T19:02:41.584381+00:00 app[worker.1]:     -da[:<packagename>...|:<classname>]
+2021-04-29T19:02:41.584382+00:00 app[worker.1]:     -disableassertions[:<packagename>...|:<classname>]
+2021-04-29T19:02:41.584382+00:00 app[worker.1]:                   disable assertions with specified granularity
+2021-04-29T19:02:41.584383+00:00 app[worker.1]:     -esa | -enablesystemassertions
+2021-04-29T19:02:41.584383+00:00 app[worker.1]:                   enable system assertions
+2021-04-29T19:02:41.584383+00:00 app[worker.1]:     -dsa | -disablesystemassertions
+2021-04-29T19:02:41.584384+00:00 app[worker.1]:                   disable system assertions
+2021-04-29T19:02:41.584384+00:00 app[worker.1]:     -agentlib:<libname>[=<options>]
+2021-04-29T19:02:41.584384+00:00 app[worker.1]:                   load native agent library <libname>, e.g. -agentlib:jdwp
+2021-04-29T19:02:41.584384+00:00 app[worker.1]:                   see also -agentlib:jdwp=help
+2021-04-29T19:02:41.584384+00:00 app[worker.1]:     -agentpath:<pathname>[=<options>]
+2021-04-29T19:02:41.584385+00:00 app[worker.1]:                   load native agent library by full pathname
+2021-04-29T19:02:41.584385+00:00 app[worker.1]:     -javaagent:<jarpath>[=<options>]
+2021-04-29T19:02:41.584385+00:00 app[worker.1]:                   load Java programming language agent, see java.lang.instrument
+2021-04-29T19:02:41.584385+00:00 app[worker.1]:     -splash:<imagepath>
+2021-04-29T19:02:41.584386+00:00 app[worker.1]:                   show splash screen with specified image
+2021-04-29T19:02:41.584386+00:00 app[worker.1]:                   HiDPI scaled images are automatically supported and used
+2021-04-29T19:02:41.584386+00:00 app[worker.1]:                   if available. The unscaled image filename, e.g. image.ext,
+2021-04-29T19:02:41.584392+00:00 app[worker.1]:                   should always be passed as the argument to the -splash option.
+2021-04-29T19:02:41.584392+00:00 app[worker.1]:                   The most appropriate scaled image provided will be picked up
+2021-04-29T19:02:41.584392+00:00 app[worker.1]:                   automatically.
+2021-04-29T19:02:41.584398+00:00 app[worker.1]:                   See the SplashScreen API documentation for more information
+2021-04-29T19:02:41.584398+00:00 app[worker.1]:     @argument files
+2021-04-29T19:02:41.584398+00:00 app[worker.1]:                   one or more argument files containing options
+2021-04-29T19:02:41.584399+00:00 app[worker.1]:     -disable-@files
+2021-04-29T19:02:41.584399+00:00 app[worker.1]:                   prevent further argument file expansion
+2021-04-29T19:02:41.584399+00:00 app[worker.1]:     --enable-preview
+2021-04-29T19:02:41.584399+00:00 app[worker.1]:                   allow classes to depend on preview features of this release
+2021-04-29T19:02:41.584399+00:00 app[worker.1]: To specify an argument for a long option, you can use --<name>=<value> or
+2021-04-29T19:02:41.584400+00:00 app[worker.1]: --<name> <value>.
+2021-04-29T19:02:41.584400+00:00 app[worker.1]: 
+2021-04-29T19:02:41.591477+00:00 app[worker.1]: bash: target/dependency/*: No such file or directory
+2021-04-29T19:03:34.000000+00:00 app[api]: Build started by user skrypnyk.rma@gmail.com
+2021-04-29T19:03:55.139289+00:00 app[api]: Release v48 created by user skrypnyk.rma@gmail.com
+2021-04-29T19:03:55.139289+00:00 app[api]: Deploy df77f1a0 by user skrypnyk.rma@gmail.com
+2021-04-29T19:03:56.452061+00:00 heroku[worker.1]: State changed from crashed to starting
+2021-04-29T19:03:57.000000+00:00 app[api]: Build succeeded
+2021-04-29T19:03:59.911352+00:00 heroku[worker.1]: Starting process with command `java -cp target/classes/:target/dependency/* com.company.Main`
+2021-04-29T19:04:00.604790+00:00 heroku[worker.1]: State changed from starting to up
+2021-04-29T19:04:02.628318+00:00 app[worker.1]: Picked up JAVA_TOOL_OPTIONS: -XX:+UseContainerSupport -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 
+2021-04-29T19:04:02.841572+00:00 app[worker.1]: Error: Main method not found in class com.company.Main, please define the main method as:
+2021-04-29T19:04:02.841574+00:00 app[worker.1]:    public static void main(String[] args)
+2021-04-29T19:04:02.841635+00:00 app[worker.1]: or a JavaFX application class must extend javafx.application.Application
+2021-04-29T19:04:02.919603+00:00 heroku[worker.1]: Process exited with status 1
+2021-04-29T19:04:03.228513+00:00 heroku[worker.1]: State changed from up to crashed
+2021-04-29T19:05:32.000000+00:00 app[api]: Build started by user skrypnyk.rma@gmail.com
+2021-04-29T19:05:53.837908+00:00 app[api]: Deploy ab63ff8e by user skrypnyk.rma@gmail.com
+2021-04-29T19:05:53.837908+00:00 app[api]: Release v49 created by user skrypnyk.rma@gmail.com
+2021-04-29T19:05:55.028470+00:00 heroku[worker.1]: State changed from crashed to starting
+2021-04-29T19:05:56.000000+00:00 app[api]: Build succeeded
+2021-04-29T19:05:58.674862+00:00 heroku[worker.1]: Starting process with command `java -cp target/classes/:target/dependency/* com.company.wea_bot`
+2021-04-29T19:05:59.394279+00:00 heroku[worker.1]: State changed from starting to up
+2021-04-29T19:06:00.850104+00:00 heroku[worker.1]: Process exited with status 1
+2021-04-29T19:06:00.937734+00:00 heroku[worker.1]: State changed from up to crashed
+2021-04-29T19:06:00.603835+00:00 app[worker.1]: Picked up JAVA_TOOL_OPTIONS: -XX:+UseContainerSupport -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 
+2021-04-29T19:06:00.792109+00:00 app[worker.1]: Error: Could not find or load main class com.company.wea_bot
+2021-04-29T19:06:00.792225+00:00 app[worker.1]: Caused by: java.lang.ClassNotFoundException: com.company.wea_bot
+2021-04-29T19:06:43.000000+00:00 app[api]: Build started by user skrypnyk.rma@gmail.com
+2021-04-29T19:07:07.132806+00:00 app[api]: Release v50 created by user skrypnyk.rma@gmail.com
+2021-04-29T19:07:07.132806+00:00 app[api]: Deploy ae5b8722 by user skrypnyk.rma@gmail.com
+2021-04-29T19:07:08.485124+00:00 heroku[worker.1]: State changed from crashed to starting
+2021-04-29T19:07:09.000000+00:00 app[api]: Build succeeded
+2021-04-29T19:07:12.094693+00:00 heroku[worker.1]: Starting process with command `java -cp target/classes/:target/dependency/* com.company.Main`
+2021-04-29T19:07:12.824096+00:00 heroku[worker.1]: State changed from starting to up
+2021-04-29T19:07:15.067430+00:00 heroku[worker.1]: Process exited with status 1
+2021-04-29T19:07:15.012299+00:00 app[worker.1]: Error: Main method not found in class com.company.Main, please define the main method as:
+2021-04-29T19:07:15.012338+00:00 app[worker.1]:    public static void main(String[] args)
+2021-04-29T19:07:15.012349+00:00 app[worker.1]: or a JavaFX application class must extend javafx.application.Application
+2021-04-29T19:07:14.705785+00:00 app[worker.1]: Picked up JAVA_TOOL_OPTIONS: -XX:+UseContainerSupport -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 
+2021-04-29T19:07:15.132072+00:00 heroku[worker.1]: State changed from up to crashed
+2021-04-29T19:21:41.540401+00:00 heroku[worker.1]: State changed from crashed to starting
+2021-04-29T19:21:45.926364+00:00 heroku[worker.1]: Starting process with command `java -cp target/classes/:target/dependency/* com.company.Main`
+2021-04-29T19:21:46.570674+00:00 heroku[worker.1]: State changed from starting to up
+2021-04-29T19:21:51.614988+00:00 app[worker.1]: Picked up JAVA_TOOL_OPTIONS: -XX:+UseContainerSupport -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 
+2021-04-29T19:21:51.836825+00:00 app[worker.1]: Error: Main method not found in class com.company.Main, please define the main method as:
+2021-04-29T19:21:51.836827+00:00 app[worker.1]:    public static void main(String[] args)
+2021-04-29T19:21:51.836886+00:00 app[worker.1]: or a JavaFX application class must extend javafx.application.Application
+2021-04-29T19:21:51.980834+00:00 heroku[worker.1]: Process exited with status 1
+2021-04-29T19:21:52.047065+00:00 heroku[worker.1]: State changed from up to crashed
