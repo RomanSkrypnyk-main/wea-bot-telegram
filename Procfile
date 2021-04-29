@@ -1,1 +1,1 @@
-worker: java -cp target/classes/:target/dependency/* targetюclasses.com.company.Main
+worker: java -cp target/classes/:target/dependency/* target.classes.com.company.Main
