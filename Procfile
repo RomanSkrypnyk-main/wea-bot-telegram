@@ -1,1 +1,1 @@
-worker: java $JAVA_OPTS -cp target/classes:target/dependency/com.company.Main
+java $JAVA_OPTS -cp target/classes:target/dependency/* com.com.company.Main.class
