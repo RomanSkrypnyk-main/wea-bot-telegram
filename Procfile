@@ -1,1 +1,1 @@
-worker: java -cp target/classes:target/dependency/*wea-bot-1.0-SNAPSHOT
+web: java $JAVA_OPTS -cp build/staging:build/staging/* com.company.Main
