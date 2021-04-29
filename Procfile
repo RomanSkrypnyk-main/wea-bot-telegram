@@ -1,1 +1,1 @@
-worker: java $JAVA_OPTS -cp build/staging:build/staging/* com.company.Main
+worker: java -jar target/*.jar
