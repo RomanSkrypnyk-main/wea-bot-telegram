@@ -7,6 +7,13 @@
     <artifactId>wea-bot-telegram</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
+             
+             <configuration>
+            <processTypes>
+                <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
+            </processTypes>
+        </configuration>
+             
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
              <exec.mainClass>com.company.Main</exec.mainClass>
