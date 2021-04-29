@@ -1,1 +1,1 @@
-worker: java -Dserver.port=$PORT -jar target/wea-bot-1.0-SNAPSHOT.jar
+worker: java $JAVA_OPTS -cp target/classes:target/dependency/src/main/java/com/company/Main.java
