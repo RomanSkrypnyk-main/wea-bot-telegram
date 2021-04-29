@@ -19,6 +19,8 @@ import java.util.List;
 public class Main {
 
     public static class wea_bot extends TelegramLongPollingBot {
+        private static final String TOKEN = System.getenv("TOKEN");
+    private static final String BOT_USERNAME = System.getenv("BOT_USERNAME");
         public static void main(String[] args) {
             // Initialize Api Context
             ApiContextInitializer.init();
@@ -34,12 +36,12 @@ public class Main {
 
         @Override
         public String getBotUsername() {
-            return "wea_bot";
+            return BOT_USERNAME;;
         }
 
         @Override
         public String getBotToken() {
-            return "1767375525:AAG544FLEblJYf6BNGvbiMUiHh1i1PJMnUM";
+            return TOKEN;
         }
 
         public void sendMsg(Message message, String text) {
