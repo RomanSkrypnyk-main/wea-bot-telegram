@@ -1,1 +1,1 @@
-worker: java com.company.Main
+web: java com.company.Main
