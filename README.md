@@ -1,4 +1,4 @@
-@wea_forecast_bot 
+# @wea_forecast_bot 
 
 ![alt start wea_forecast_bot](screenshots/1.jpg)
 ![alt start wea_forecast_bot](screenshots/2.jpg)
