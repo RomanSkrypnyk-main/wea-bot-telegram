@@ -1,4 +1,4 @@
-![start wea_forecast_bot](https://github.com/RomanSkrypnyk-main/wea-bot-telegram/raw/master/screenshots/1.jpg)
+![start wea_forecast_bot](screenshots/1.jpg)
 
 ![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
 
