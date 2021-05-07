@@ -1,4 +1,6 @@
 # @wea_forecast_bot 
+**simple telegram bot. weather bot.**
+***JAVA***
 
 ![alt start wea_forecast_bot](screenshots/1.jpg)
 ![alt start wea_forecast_bot](screenshots/2.jpg)
