@@ -39,7 +39,7 @@ public class Main {
 
         @Override
         public String getBotToken() {
-            return "1767375525:AAG544FLEblJYf6BNGvbiMUiHh1i1PJMnUM";
+            return ""; //bot token
         }
 
         public void sendMsg(Message message, String text) {
