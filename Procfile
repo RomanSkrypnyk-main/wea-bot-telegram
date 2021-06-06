@@ -1,1 +1,1 @@
-worker: sh target/com.company.Main
+worker: sh target/bin/wea_bot
