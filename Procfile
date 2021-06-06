@@ -1,1 +1,1 @@
-worker: sh target/bin/Main
+worker: sh target/com.company.Main
