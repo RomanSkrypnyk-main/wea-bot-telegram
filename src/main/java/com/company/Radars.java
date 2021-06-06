@@ -11,17 +11,21 @@ public class Radars {
 
     public String getRadarEur() {
         try {
-            Document pageEur = Jsoup.connect("https://www.weatheronline.co.uk/Europe.htm")
+            Document pageSin = Jsoup.connect("https://radar.veg.by/kiev/")
                     .userAgent("Chrome/4.0.249.0 Safari/532.5")
                     .referrer("http://www.google.com")
                     .get();
-            //парсить ссылку на картинку с сайта
-            Elements el = pageEur.select("html body.eBody div.eZent_300 div.eAll_sky div.eAll_border div.eAll div.cont div.c2_r div.zentrier div img");
-            for (Element image : el) {
+            //"https://meteoinfo.by/radar/UKBB/UKBB" + "_" + RexEx.gateDateFromStr(new Radars().getRadarUkr(modelParser)) + ".png"
+
+            //modelParser.setPngStr(pageSin.select("html body div#scroller div div img"));
+            //return modelParser.getPngStr().toString().replace("_", "-");
+            //return "Радар осадков: " + "https://meteoinfo.by/radar/UKBB/UKBB" + "_" + RexEx.gateDateFromStr(modelParser.getPngStr().toString().replace("_", "-")) + ".png";
+            Elements radar = pageSin.select("html body div#scroller div div img");
+            for (Element image : radar) {
                 String radarSrc = image.attr("src");
-                radarSrc = radarSrc.replace("//", "");
-                return radarSrc.replace(".gif", ".jpeg");
+                return "https://radar.veg.by" + radarSrc;
             }
+            //return "Радар осадков: ";
         } catch (Exception e) {
             e.printStackTrace();
         }
