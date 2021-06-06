@@ -1,1 +1,1 @@
-worker: java -cp target/classes.com.company.Main
+worker: sh target/bin/Main
