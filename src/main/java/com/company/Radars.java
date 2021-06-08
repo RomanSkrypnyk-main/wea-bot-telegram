@@ -7,7 +7,7 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 
-///////public class Radars {
+public class Radars {
 
     public String getRadarEur() {
         try {
@@ -37,7 +37,7 @@ import java.io.IOException;
             Elements el = pageMeteo.select("html body div.wrapper div.cont_wr div div img#img_radar");
             for (Element image : el) {
                 String radarSrc = image.attr("src");
-                radarSrc = radarSrc.replace(" ", "$");
+                radarSrc = radarSrc.replace("-", "$");
                 return radarSrc;
             }
         } catch (Exception e) {
