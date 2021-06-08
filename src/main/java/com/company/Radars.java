@@ -34,17 +34,7 @@ public class Radars {
                     .userAgent("Chrome/4.0.249.0 Safari/532.5")
                     .referrer("http://www.google.com")
                     .get();
-            //"https://meteoinfo.by/radar/UKBB/UKBB" + "_" + RexEx.gateDateFromStr(new Radars().getRadarUkr(modelParser)) + ".png"
-
-            //modelParser.setPngStr(pageSin.select("html body div#scroller div div img"));
-            //return modelParser.getPngStr().toString().replace("_", "-");
-            //return "Радар осадков: " + "https://meteoinfo.by/radar/UKBB/UKBB" + "_" + RexEx.gateDateFromStr(modelParser.getPngStr().toString().replace("_", "-")) + ".png";
-            Elements radar = pageSin.select("html body div#scroller div div img");
-            for (Element image : radar) {
-                String radarSrc = image.attr("src");
-                return "https://radar.veg.by" + radarSrc;
-            }
-            //return "Радар осадков: ";
+            return "https://meteo.gov.ua/radars/Ukr_J%202021-06-08%2017-09-00.jpg";
         } catch (Exception e) {
             return "Упс, нет данных UKB! Радар временно не работает.";
         }
@@ -67,20 +57,6 @@ public class Radars {
             }catch (Exception el){
                 return "Oops, нет данных";
             }
-            //return "Oops, нет данных";
         }
     }
-
-    /*public String descriptonForRadars(Model model) throws Exception {
-        //try {
-            if (model.getCountry().contains("UA") || model.getCountry().toLowerCase().contains("ukraine")) {
-                return "Радар осадков: " + "https://meteoinfo.by/radar/UKBB/UKBB" + "_" + RexEx.gateDateFromStr(getRadarUkr(new ModelParser())) + ".png";
-                //return "https://meteoinfo.by/radar/UKBB/UKBB" + "_" + RexEx.gateDateFromStr(modelParser.getPngStr().toString().replace("_", "-"))  + ".png" ;
-            } else {
-                return "Упс, нет данных UKB. Радар временно не работает.";
-            }
-        *//*} catch (Exception e) {
-            return getRadarEur();
-        }*//*
-    }*/
 }
