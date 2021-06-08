@@ -29,18 +29,7 @@ public class Radars {
     }
 
     public String getRadarUkr(ModelParser modelParser) {
-            try {
-            Document pageMeteo = Jsoup.connect("https://www.google.ru/")
-                    .get();
-            return pageMeteo.toString();
-            /*for (Element image : el) {
-                String radarSrc = image.attr("src");
-                radarSrc = radarSrc.replace(" ", "&");
-                return radarSrc;
-            }*/
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+            
         return "Упс, нет данных UKB. Радар временно не работает.";
     }
 
