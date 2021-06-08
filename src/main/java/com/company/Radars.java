@@ -32,9 +32,9 @@ public class Radars {
         try {
             Document pageMeteo = Jsoup.connect("https://radar.veg.by/kiev/")
                     .get();
-            Element img = pageMeteo.select("img").first();
+            Element img = pageMeteo.select("#scroller > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)").first();
             String src = img.attr("src");
-            return src;
+            return src;;
         } catch (Exception e) {
             e.printStackTrace();
         }
