@@ -29,17 +29,7 @@ public class Radars {
     }
 
     public String getRadarUkr(ModelParser modelParser) {
-        try {
-            Document pageSin = Jsoup.connect("https://meteo.gov.ua/ua/33345/radar")
-                    .userAgent("Chrome/4.0.249.0 Safari/532.5")
-                    .referrer("http://www.google.com")
-                    .get();
             return "https://meteo.gov.ua/radars/Ukr_J%202021-06-08%2017-09-00.jpg";
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return "Упс, нет данных UKB. Радар временно не работает.";
     }
 
     public String getGeoMag() {
