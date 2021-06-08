@@ -32,8 +32,7 @@ public class Radars {
             try {
             Document pageMeteo = Jsoup.connect("https://meteo.gov.ua/ua/33345/radar")
                     .get();
-            Elements el = pageMeteo.select("html body div.wrapper div.cont_wr div div img#img_radar");
-            return el.text();
+            return pageMeteo.toString();
             /*for (Element image : el) {
                 String radarSrc = image.attr("src");
                 radarSrc = radarSrc.replace(" ", "&");
