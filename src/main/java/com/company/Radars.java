@@ -7,7 +7,7 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 
-public class Radars {
+///////public class Radars {
 
     public String getRadarEur() {
         try {
