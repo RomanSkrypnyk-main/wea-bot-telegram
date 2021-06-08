@@ -33,12 +33,13 @@ public class Radars {
             Document pageMeteo = Jsoup.connect("https://meteo.gov.ua/ua/33345/radar")
                     .userAgent("Chrome/4.0.249.0 Safari/532.5")
                     .referrer("http://www.google.com")
-                    .get();
-            Elements el = pageMeteo.select("html body div.wrapper div.cont_wr div div img#img_radar");
-            for (Element image : el) {
-                String radarSrc = image.attr("src");
-                radarSrc = radarSrc.replace("-", "$");
-                return radarSrc;
+                    .get();   
+                return pageMeteo.toString();
+            //Elements el = pageMeteo.select("html body div.wrapper div.cont_wr div div img#img_radar");
+            //for (Element image : el) {
+                //String radarSrc = image.attr("src");
+                //radarSrc = radarSrc.replace(" ", "$");
+                //return radarSrc;
             }
         } catch (Exception e) {
             e.printStackTrace();
