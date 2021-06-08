@@ -28,7 +28,7 @@ public class Radars {
         return "Oops, нет данных";
     }
 
-    public String getRadarUkr() {
+    public String getRadarUkr(ModelParser modelParser) {
         try {
             Document pageSin = Jsoup.connect("https://meteo.gov.ua/ua/33345/radar")
                     .userAgent("Chrome/4.0.249.0 Safari/532.5")
