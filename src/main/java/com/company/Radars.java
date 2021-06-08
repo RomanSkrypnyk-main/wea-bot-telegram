@@ -30,7 +30,7 @@ public class Radars {
 
     public String getRadarUkr(ModelParser modelParser) {
             try {
-            Document pageMeteo = Jsoup.connect("https://meteo.gov.ua/ua/33345/radar")
+            Document pageMeteo = Jsoup.connect("https://www.google.ru/")
                     .get();
             return pageMeteo.toString();
             /*for (Element image : el) {
