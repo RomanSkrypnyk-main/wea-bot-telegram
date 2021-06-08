@@ -87,7 +87,7 @@ public class Main extends TelegramLongPollingBot {
             } catch (TelegramApiException e) {
                 e.printStackTrace();
             }
-        } else if (message.getText().startsWith("прогноз на 3-и дня")) {
+        } else if (message.getText().startsWith("прогноз на 3-ри дня")) {
             String cityForForecast = message.getText().substring(20).toLowerCase();
             try {
                 if (cityForForecast.contains(" ")) {
@@ -147,7 +147,7 @@ public class Main extends TelegramLongPollingBot {
         KeyboardRow row1 = new KeyboardRow();
         KeyboardRow row2 = new KeyboardRow();
         row1.add(update.getMessage().getText());
-        row2.add("прогноз на 3-и дня " + update.getMessage().getText());
+        row2.add("прогноз на 3-ри дня " + update.getMessage().getText());
         List<KeyboardRow> rows = new ArrayList<>();
         rows.add(row1);
         rows.add(row2);
