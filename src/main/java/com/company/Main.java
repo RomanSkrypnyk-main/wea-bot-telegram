@@ -1,5 +1,6 @@
 package com.company;
 
+impott java.lang*;
 import org.telegram.telegrambots.ApiContextInitializer;
 import org.telegram.telegrambots.TelegramBotsApi;
 import org.telegram.telegrambots.api.methods.send.SendMessage;
@@ -22,7 +23,7 @@ import java.util.regex.Pattern;
 
 public class Main extends TelegramLongPollingBot {
     
-    //private final String TOKEN = System.getenv("TOKEN");
+    private final String TOKEN = System.getenv("TOKEN");
 
     public static void main(String[] args) {
         // Initialize Api Context
@@ -44,7 +45,7 @@ public class Main extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return System.getenv("TOKEN");
+        return TOKEN;
     }
 
     public void sendMsg(Message message, String text) {
