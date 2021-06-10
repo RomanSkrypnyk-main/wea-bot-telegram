@@ -21,6 +21,8 @@ import java.util.regex.Pattern;
 
 
 public class Main extends TelegramLongPollingBot {
+    
+    private final String TOKEN;
 
     public static void main(String[] args) {
         // Initialize Api Context
