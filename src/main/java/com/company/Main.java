@@ -22,6 +22,8 @@ import java.util.regex.Pattern;
 
 
 public class Main extends TelegramLongPollingBot {
+    
+    private final String TOKEN;
 
     public static void main(String[] args) {
         // Initialize Api Context
@@ -43,7 +45,7 @@ public class Main extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "1767375525:AAG544FLEblJYf6BNGvbiMUiHh1i1PJMnUM";
+        return TOKEN;
     }
 
     public void sendMsg(Message message, String text) {
