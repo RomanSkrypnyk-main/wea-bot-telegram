@@ -50,7 +50,7 @@ public class Radars {
     public String getRadarTemp() {
         try{
         Document pageMeteoTemp = Jsoup.connect("https://www.meteoinfo.by/maps/?type=egrr&map=TMP2m&date=2021062200&time=12")
-                        .userAgent("Chrome/4.0      .249.0 Safari/532.5")
+                        .userAgent("Chrome/4.0.249.0 Safari/532.5")
                         .referrer("http://www.google.com")
                         .get();
         Elements sourceTemp = pageMeteoTemp.select("#map > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > img:nth-child(1)");
