@@ -113,7 +113,7 @@ public class Main extends TelegramLongPollingBot {
                 execute(response);
                 sendMsg(message, WeatherOpenWeather.getWeather(strWeaCity, model));
                 sendMsg(message, new Radars().getRadarTemp());
-                sendMsg(message, new Radars().getRadarRain());
+                //sendMsg(message, new Radars().getRadarRain());
                 sendMsg(message, ParserSinoptic.getPage(strWeaCity.contains(" ") ? strReplWeaCity : strWeaCity, modelParser));
             } catch (Exception e) {
                 sendMsg(message, "Oops, что-то не сработало, попробуйте еще" + "\n"
