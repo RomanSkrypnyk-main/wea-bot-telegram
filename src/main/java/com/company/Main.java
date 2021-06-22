@@ -112,6 +112,7 @@ public class Main extends TelegramLongPollingBot {
             try {
                 execute(response);
                 sendMsg(message, WeatherOpenWeather.getWeather(strWeaCity, model));
+                sendMsg(message, new Radars().getRadarTemp());
                 sendMsg(message, new Radars().getRadarRain());
                 sendMsg(message, ParserSinoptic.getPage(strWeaCity.contains(" ") ? strReplWeaCity : strWeaCity, modelParser));
             } catch (Exception e) {
