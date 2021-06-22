@@ -21,7 +21,7 @@ public class Radars {
             for (Element image : el) {
                 String radarSrc = image.attr("src");
                 radarSrc = radarSrc.replace("//", "");
-                return radarSrc.replace(".gif", ".jpeg");
+                return radarSrc.replace(".gif", ".png");
             }
             
         } catch (Exception e) {
