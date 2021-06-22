@@ -56,7 +56,7 @@ public class Radars {
         Elements sourceTemp = pageMeteoTemp.select("#map > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > img:nth-child(1)");
         for (Element s : sourceTemp){
                     String src2 = s.attr("src");
-                    return "https://www.meteoinfo.by/maps/" + src2 + " " + "Радар темпер. 24ч";
+                    return "https://www.meteoinfo.by/maps/" + src2 + " " + "Радар темп.24ч";
         }
       } catch (Exception e) {
             e.printStackTrace();
