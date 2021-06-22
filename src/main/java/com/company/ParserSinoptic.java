@@ -33,8 +33,7 @@ public class ParserSinoptic {
                 "Давление: " + RexEx.gateDateFromStr(modelParser.getPreasure()) + "mmp" + "\n" +
                 "Описание: " + modelParser.getDescription() + "\n" +
                 Emoji.LEFT_RIGHT_ARROW +" Фактическая геомагнитная обстановка: " + new Radars().getGeoMag() + "\n" + "\n" +
-                new Radars().getRadarUkr(modelParser) +
-                new Radars().getRadarUkr(modelParser) +
+                new Radars().getRadarUkr(modelParser) + "\n" +
                 "Больше данных: https://sinoptik.ua/погода-" + str;
     }
 }
