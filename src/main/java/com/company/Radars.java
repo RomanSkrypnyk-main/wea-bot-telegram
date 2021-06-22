@@ -33,14 +33,14 @@ public class Radars {
                 return radarSrc.replace(".gif", ".jpeg");
             }
             
-            for(Element s : sourceRain){
+            for (Element s : sourceRain){
                     String src = s.attr("src");
-                    sendMsg(message, "https://www.meteoinfo.by/maps/" + src);
+                    return "https://www.meteoinfo.by/maps/" + src;
             }
                 
-            for(Element s : sourceTemp){
+            for (Element s : sourceTemp){
                     String src2 = s.attr("src");
-                    sendMsg(message, "https://www.meteoinfo.by/maps/" + src2);
+                    return "https://www.meteoinfo.by/maps/" + src2;
             }
             
         } catch (Exception e) {
