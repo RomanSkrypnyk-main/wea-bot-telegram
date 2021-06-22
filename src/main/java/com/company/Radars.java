@@ -15,13 +15,34 @@ public class Radars {
                     .userAgent("Chrome/4.0.249.0 Safari/532.5")
                     .referrer("http://www.google.com")
                     .get();
-            //парсить ссылку на картинку с сайта
+            Document pageMeteoRain = Jsoup.connect("https://www.meteoinfo.by/maps/?type=gis&map=SYNOP_GIS&date=20210622&time=06")
+                        .userAgent("Chrome/4.0.249.0 Safari/532.5")
+                        .referrer("http://www.google.com")
+                        .get();
+            Document pageMeteoTemp = Jsoup.connect("https://www.meteoinfo.by/maps/?type=egrr&map=TMP2m&date=2021062200&time=12")
+                        .userAgent("Chrome/4.0.249.0 Safari/532.5")
+                        .referrer("http://www.google.com")
+                        .get();
+            Elements sourceRain = pageMeteoRain.select("html body div#cover div#wrapper div#container div#content table#map tbody tr td img");
+            Elements sourceTemp = pageMeteoTemp.select("#map > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > img:nth-child(1)");
             Elements el = pageEur.select("html body.eBody div.eZent_300 div.eAll_sky div.eAll_border div.eAll div.cont div.c2_r div.zentrier div img");
+            
             for (Element image : el) {
                 String radarSrc = image.attr("src");
                 radarSrc = radarSrc.replace("//", "");
                 return radarSrc.replace(".gif", ".jpeg");
             }
+            
+            for(Element s : sourceRain){
+                    String src = s.attr("src");
+                    sendMsg(message, "https://www.meteoinfo.by/maps/" + src);
+            }
+                
+            for(Element s : sourceTemp){
+                    String src2 = s.attr("src");
+                    sendMsg(message, "https://www.meteoinfo.by/maps/" + src2);
+            }
+            
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -29,16 +50,7 @@ public class Radars {
     }
 
     public String getRadarUkr(ModelParser modelParser) {
-        try {
-            Document pageMeteo = Jsoup.connect("https://radar.veg.by/kiev/")
-                    .get();
-            Element img = pageMeteo.select("#scroller > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)").first();
-            String src = img.attr("src");
-            return src;;
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return "Упс, нет данных UKB. Радар временно не работает.";
+        return "Радар Киев: " + "https://radar.veg.by/kiev/";
     }
 
     public String getGeoMag() {
