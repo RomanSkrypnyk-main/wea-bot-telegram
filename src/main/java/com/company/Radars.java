@@ -33,13 +33,13 @@ public class Radars {
     public String getRadarRain() {
         try{
         Document pageMeteoRain = Jsoup.connect("https://www.meteoinfo.by/maps/?type=gis&map=SYNOP_GIS&date=20210622&time=06")
-                        .userAgent("Chrome/4.0      .249.0 Safari/532.5")
+                        .userAgent("Chrome/4.0.249.0 Safari/532.5")
                         .referrer("http://www.google.com")
                         .get();
         Elements sourceRain = pageMeteoRain.select("html body div#cover div#wrapper div#container div#content table#map tbody tr td img");
              for (Element s : sourceRain){
                     String src = s.attr("src");
-                    return "https://www.meteoinfo.by/maps/" + src;
+                    return "https://www.meteoinfo.by/maps/" + src + " " + "Радар осадков 24ч";
         }
       } catch (Exception e) {
             e.printStackTrace();
@@ -56,7 +56,7 @@ public class Radars {
         Elements sourceTemp = pageMeteoTemp.select("#map > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > img:nth-child(1)");
         for (Element s : sourceTemp){
                     String src2 = s.attr("src");
-                    return "https://www.meteoinfo.by/maps/" + src2;
+                    return "https://www.meteoinfo.by/maps/" + src2 + " " + "Радар темпер. 24ч";
         }
       } catch (Exception e) {
             e.printStackTrace();
