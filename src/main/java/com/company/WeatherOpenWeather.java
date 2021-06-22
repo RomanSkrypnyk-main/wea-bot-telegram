@@ -58,7 +58,7 @@ public class WeatherOpenWeather {
                 "Температура: " + model.getTemp() + " C°" + "\n" +
                 "Влажность: " + model.getHumidity() + "%" + "\n" +
                 "Описание: " + model.getDescriptions().toLowerCase() + " " +
-                model.getIcon() + "\n" + "Радары погоды Европа: " + new Radars().getRadarEur();
+                model.getIcon() + "\n" + "Радар погоды Европа: " + new Radars().getRadarEur();
     }
 }
 
