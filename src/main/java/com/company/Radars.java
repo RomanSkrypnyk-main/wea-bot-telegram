@@ -39,7 +39,7 @@ public class Radars {
         Elements sourceRain = pageMeteoRain.select("html body div#cover div#wrapper div#container div#content table#map tbody tr td img");
              for (Element s : sourceRain){
                     String src = s.attr("src");
-                    return "https://www.meteoinfo.by/maps/" + src + " " + "Радар осадков 24ч";
+                    return "www.meteoinfo.by/maps/" + src + " - " + "Радар осадков 24ч";
         }
       } catch (Exception e) {
             e.printStackTrace();
