@@ -42,7 +42,7 @@ public class Main extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "TOKEN";
+        return "1855124033:AAGmbZ89s9ANaEz3vdFjlHyA3I2u_e1Xghs";
     }
 
     public void sendMsg(Message message, String text) {
