@@ -58,7 +58,7 @@ public class Radars {
         for (Element s : sourceTemp){
                 double i = Math.random();
                 String src2 = s.attr("src");
-             return "https://www.meteoinfo.by/maps/" + src + "?t=" + i + " - t' 12ч прогноз";
+             return "https://www.meteoinfo.by/maps/" + src2 + "?t=" + i + " - t' 12ч прогноз";
         }
       } catch (Exception e) {
             e.printStackTrace();
