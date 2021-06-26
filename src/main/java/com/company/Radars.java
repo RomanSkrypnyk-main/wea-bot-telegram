@@ -38,8 +38,9 @@ public class Radars {
                         .get();
         Elements sourceRain = pageMeteoRain.select("html body div#cover div#wrapper div#container div#content table#map tbody tr td img");
              for (Element s : sourceRain){
-                    String src = s.attr("src");
-                    return "www.meteoinfo.by/maps/" + src + " - " + "Радар осадков 24ч";
+                 double i = Math.random();
+                 String src = s.attr("src");
+             return "https://www.meteoinfo.by/maps/" + src + "?t=" + i + " - осадки 12ч прогноз";
         }
       } catch (Exception e) {
             e.printStackTrace();
@@ -55,8 +56,9 @@ public class Radars {
                         .get();
         Elements sourceTemp = pageMeteoTemp.select("#map > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > img:nth-child(1)");
         for (Element s : sourceTemp){
-                    String src2 = s.attr("src");
-                    return "https://www.meteoinfo.by/maps/" + src2 + " " + "Радар темп.24ч";
+                double i = Math.random();
+                String src2 = s.attr("src");
+             return "https://www.meteoinfo.by/maps/" + src + "?t=" + i + " - t' 12ч прогноз";
         }
       } catch (Exception e) {
             e.printStackTrace();
@@ -65,7 +67,7 @@ public class Radars {
     }
 
     public String getRadarUkr(ModelParser modelParser) {
-        return "Радар Киев: " + "https://radar.veg.by/kiev/";
+        return "РАДАР КИЕВ: " + "https://radar.veg.by/kiev/";
     }
 
     public String getGeoMag() {
