@@ -2,7 +2,7 @@
 **simple telegram bot. weather bot.**
 ***JAVA***
 
-![Java]https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white
 
 ![alt start wea_forecast_bot](screenshots/1.jpg)
 ![alt start wea_forecast_bot](screenshots/2.jpg)
