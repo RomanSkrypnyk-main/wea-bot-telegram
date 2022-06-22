@@ -6,8 +6,8 @@
 
 
 <p align=”center”>
-  <img width="315" height="600" src="https://user-images.githubusercontent.com/62649514/162917476-d6c24ee3-308e-4734-bbf7-09e8752bacdf.jpg" alt="telega_alert_bot_admin">
-  <img width="315" height="600" src="https://user-images.githubusercontent.com/62649514/162917505-ed438d48-06f0-4b3b-a435-4a0832d9db0b.jpg" alt="telega_alert_bot_user">
+  <img width="315" height="600" src="screenshots/1.jpg" alt="telega_alert_bot_admin">
+  <img width="315" height="600" src="screenshots/2.jpg" alt="telega_alert_bot_user">
 </p>
 
 
