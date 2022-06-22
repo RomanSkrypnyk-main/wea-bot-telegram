@@ -5,7 +5,7 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser)
 
 
-<p align=”center”>
+<p align="center">
   <img width="315" height="600" src="screenshots/1.jpg" alt="telega_alert_bot_admin">
   <img width="315" height="600" src="screenshots/2.jpg" alt="telega_alert_bot_user">
   <img width="315" height="600" src="screenshots/3.jpg" alt="telega_alert_bot_admin">
