@@ -8,15 +8,11 @@
 <p align=”center”>
   <img width="315" height="600" src="screenshots/1.jpg" alt="telega_alert_bot_admin">
   <img width="315" height="600" src="screenshots/2.jpg" alt="telega_alert_bot_user">
+  <img width="315" height="600" src="screenshots/3.jpg" alt="telega_alert_bot_admin">
+  <img width="315" height="600" src="screenshots/4.jpg" alt="telega_alert_bot_user">
+  <img width="315" height="600" src="screenshots/5.jpg" alt="telega_alert_bot_admin">
+  <img width="315" height="600" src="screenshots/6.jpg" alt="telega_alert_bot_user">
+  <img width="315" height="600" src="screenshots/7.jpg" alt="telega_alert_bot_admin">
 </p>
-
-
-![alt start wea_forecast_bot](screenshots/1.jpg)
-![alt start wea_forecast_bot](screenshots/2.jpg)
-![alt start wea_forecast_bot](screenshots/3.jpg)
-![alt start wea_forecast_bot](screenshots/4.jpg)
-![alt start wea_forecast_bot](screenshots/5.jpg)
-![alt start wea_forecast_bot](screenshots/6.jpg)
-![alt start wea_forecast_bot](screenshots/7.jpg)
 
 
