@@ -4,7 +4,6 @@
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser)
 
-[![Anurag’s github stats](https://github-readme-stats.vercel.app/api?username=RomanSkrypnyk-main)](https://github.com/RomanSkrypnyk-main)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RomanSkrypnyk-main&layout=compact)](https://github.com/RomanSkrypnyk-main)
 
 
