@@ -33,7 +33,6 @@ public enum Emoji {
         if (this.secondChar != null) {
             sb.append(this.secondChar);
         }
-
         return sb.toString();
     }
 }
